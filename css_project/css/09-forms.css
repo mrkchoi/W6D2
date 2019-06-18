@@ -8,6 +8,7 @@
 }
 .form {
   float: left;
+  width: calc(100% - 120px);
   background-color:  #eee;
   display: flex;
   flex-direction: column;
@@ -26,6 +27,11 @@
   padding: 10px;
   margin-bottom: 16px;
 }
+
+.input:focus {
+  border: 1px solid #0c0;
+}
+
 .submit input {
   font-weight: bold;
   color: white;
