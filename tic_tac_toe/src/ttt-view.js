@@ -24,6 +24,8 @@ class View {
         // WINNER
         this.renderWinningBoard();
         this.renderGameOverMessage();
+        this.$el.off('click');
+
       } else {
         // DRAW
         this.renderDrawBoard();
