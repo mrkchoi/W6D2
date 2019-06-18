@@ -1,8 +1,28 @@
+body {
+  font-family: sans-serif;
+  width: 100%;
+}
+h1 {
+  font-size: 3rem;
+}
+
+.main__container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ttt {
+  margin: 0 auto;
+}
 .ttt ul {
   display: flex;
   flex-wrap: wrap;
   width: 340px;
   box-sizing: border-box;
+  
+  padding-left: 0;
+  margin: 0 auto;
 }
 
 .square {
@@ -15,11 +35,49 @@
   cursor: pointer;
 }
 
-.square.clicked {
+.square.regular-mark {
   cursor: default;
+}
+.square.regular-mark:hover {
+  background-color: white;
 }
 
 .square:hover {
   background-color: yellow;
 }
 
+.regular-mark {
+  background-color: white;
+  color: black;
+  font-size: 4.3rem;
+  font-weight: bold;
+}
+
+/* GAME END - SQUARE STYLING */
+
+.winner-square {
+  background-color: green;
+  color: white;
+}
+
+.loser-draw-square {
+  background-color: white;
+  color: red;
+}
+
+.neutral-square {
+  background-color: white;
+  color: black;
+}
+
+.main__container {
+  font-size: 2rem;
+  font-weight: bold;
+}
+figcaption {
+  padding-top: 2rem;
+}
+
+figcaption span {
+  color: pink;
+}
