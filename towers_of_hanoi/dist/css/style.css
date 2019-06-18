@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+  color: #E645D0;
+  margin: 2rem 0;
+  font-size: 4rem;
+}
+/*****************  
+/* MAIN WRAPPER
+******************/
+.hanoi {
+  padding-top: 4rem;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/*****************  
+/* TOWERS
+******************/
+.list {
+  border-bottom: 10px solid black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.list__item {
+  /* border: 5px solid #C7D59F; */
+  background-color: #17E1E6;
+  width: 150px;
+  height: 40px;
+  list-style: none;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.item__sm {
+  width: 50px;
+}
+
+.item__md {
+  width: 100px;
+}
+
+.item__lg {
+  width: 150px;
+}
+
+.list1 {}
+.list1__item {}
+
+.list2 {}
+.list2__item {}
+
+.list3 {}
+.list3__item {}
