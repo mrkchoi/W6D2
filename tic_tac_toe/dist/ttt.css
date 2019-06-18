@@ -1,0 +1,25 @@
+.ttt ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 340px;
+  box-sizing: border-box;
+}
+
+.square {
+  width: 33%;
+  height: 100px;
+  border: 4px solid black;
+  box-sizing: border-box;
+  list-style: none;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.square.clicked {
+  cursor: default;
+}
+
+.square:hover {
+  background-color: yellow;
+}
+
