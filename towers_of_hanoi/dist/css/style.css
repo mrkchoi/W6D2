@@ -29,27 +29,28 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 150px;
 
 }
 .list__item {
-  /* border: 5px solid #C7D59F; */
+  width: 0;
   background-color: #17E1E6;
-  width: 150px;
   height: 40px;
   list-style: none;
   border-radius: 50px;
   margin-bottom: 10px;
+  
 }
 
-.item__sm {
+.item__1 {
   width: 50px;
 }
 
-.item__md {
+.item__2 {
   width: 100px;
 }
 
-.item__lg {
+.item__3 {
   width: 150px;
 }
 
